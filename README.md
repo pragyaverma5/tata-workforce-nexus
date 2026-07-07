@@ -40,8 +40,5 @@ A modern Workforce Management Dashboard inspired by Tata Motors, designed to str
 - Notifications
 - Export Reports (PDF/Excel)
 
-## 📸 Screenshots
-(Add screenshots as the project grows.)
-
 ## 👩‍💻 Author
 Pragya Verma
