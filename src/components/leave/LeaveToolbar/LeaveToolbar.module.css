@@ -1,0 +1,56 @@
+.toolbar{
+    display:flex;
+    gap:16px;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.toolbar input,
+.toolbar select{
+
+    height:46px;
+    padding:0 16px;
+
+    border:1px solid #E2E8F0;
+    border-radius:12px;
+
+    background:white;
+
+    font-size:14px;
+
+    outline:none;
+}
+
+.toolbar input[type="text"]{
+    width:280px;
+}
+
+.toolbar input:focus,
+.toolbar select:focus{
+
+    border-color:#005BAC;
+
+    box-shadow:0 0 0 4px rgba(0,91,172,.08);
+}
+
+.exportBtn{
+    margin-left:auto;
+
+    height:46px;
+    padding:0 22px;
+
+    border:none;
+    border-radius:12px;
+
+    background:#005BAC;
+    color:white;
+
+    font-weight:600;
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.exportBtn:hover{
+    background:#004A8F;
+}

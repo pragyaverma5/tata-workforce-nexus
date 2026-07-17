@@ -1,0 +1,18 @@
+.pageHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.pageHeader h1{
+    font-size:38px;
+    color:#0F172A;
+}
+
+.pageHeader p{
+    margin-top:10px;
+    color:#64748B;
+    font-size:18px;
+}
+

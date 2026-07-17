@@ -1,0 +1,27 @@
+.card{
+    background:white;
+    border-radius:14px;
+    padding:24px;
+    box-shadow:0 4px 18px rgba(15,23,42,.05);
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.header h3{
+    color:#1f2937;
+    font-size:22px;
+}
+
+.header button{
+    border:none;
+    background:#EEF5FF;
+    color:#005BAC;
+    padding:10px 16px;
+    border-radius:12px;
+    cursor:pointer;
+}

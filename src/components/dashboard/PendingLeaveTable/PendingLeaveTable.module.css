@@ -1,0 +1,80 @@
+.card{
+    background:#fff;
+    border-radius:14px;
+    padding:24px;
+    box-shadow:0 4px 18px rgba(15,23,42,.05);
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:22px;
+}
+
+.header h3{
+    font-size:22px;
+    color:#0F172A;
+}
+
+.header a{
+    text-decoration:none;
+    color:#005BAC;
+    font-weight:600;
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table th{
+    text-align:left;
+    padding:14px 0;
+    color:#64748B;
+    font-size:14px;
+    border-bottom:1px solid #E2E8F0;
+}
+
+.table td{
+    padding:18px 0;
+    border-bottom:1px solid #F1F5F9;
+}
+
+.employee{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.avatar{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#005BAC;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+}
+
+.employee h4{
+    font-size:16px;
+    margin-bottom:3px;
+    color:#0F172A;
+}
+
+.employee span{
+    color:#64748B;
+    font-size:13px;
+}
+
+.pending{
+    background:#FEF3C7;
+    color:#D97706;
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:600;
+}

@@ -1,0 +1,161 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  min-height: 100vh;
+
+
+  background: #002b5c;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-self: flex-start;
+
+
+  padding: 24px 16px;
+}
+
+.brand {
+  text-align: center;
+
+  margin-bottom: 45px;
+}
+
+.brand img {
+  width: 130px;
+
+  margin-bottom: 20px;
+}
+
+.brand h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.brand span {
+  color: #b6c8dc;
+
+  font-size: 13px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+
+  flex: 1;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 12px 16px;
+  border-radius: 12px;
+
+  color: white;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: all .25s ease;
+}
+
+.menuItem:visited {
+  color: white;
+}
+
+.menuItem:hover {
+  background: rgba(255, 255, 255, .08);
+  transform: translateX(4px);
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem svg {
+  font-size: 18px;
+  color: inherit;
+}
+
+.menuItem span {
+  color: inherit;
+  font-weight: 500;
+}
+
+.active {
+  background: #005BAC;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 91, 172, .35);
+}
+
+.profile {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  border-top: 1px solid rgba(255, 255, 255, .08);
+
+  padding-top: 20px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+
+  background: #005BAC;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  width: 100%;
+
+  padding: 14px 18px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: transparent;
+
+  color: white;
+
+  cursor: pointer;
+
+  text-align: left;
+
+  font-size: inherit;
+
+  transition: all .25s ease;
+}
+
+.menuButton:hover {
+  background: rgba(255,255,255,.08);
+
+  transform: translateX(4px);
+}
+
+.menuButton svg {
+  font-size: 20px;
+}
+
+.menuButton span {
+  font-weight: 500;
+}

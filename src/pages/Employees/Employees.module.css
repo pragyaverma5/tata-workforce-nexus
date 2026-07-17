@@ -1,0 +1,63 @@
+
+.pageHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.pageHeader h1{
+    font-size:38px;
+    color:#1F2937;
+}
+
+.pageHeader p{
+    margin-top:6px;
+    color:#64748B;
+}
+
+.addEmployee{
+    background:#005BAC;
+    color:white;
+    border:none;
+    padding:16px 28px;
+    border-radius:14px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.25s;
+    
+
+}
+
+.toolbar{
+    display:flex;
+    gap:16px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+}
+
+.toolbar input,
+.toolbar select{
+    padding:12px 16px;
+    border:1px solid #E2E8F0;
+    border-radius:12px;
+    background:white;
+}
+
+.toolbar input{
+    width:320px;
+}
+
+.exportBtn{
+    background:white;
+    border:1px solid #D1D5DB;
+    padding:12px 18px;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.totalEmployees{
+    color:#64748B;
+    margin-bottom:18px;
+}

@@ -1,0 +1,87 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, .05);
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:28px;
+}
+
+.header h3{
+  color:#0F172A;
+  font-size:22px;
+}
+
+.header span{
+  background:#EFF6FF;
+  color:#005BAC;
+  padding:8px 14px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:600;
+}
+
+.item{
+  display:flex;
+  gap:16px;
+  margin-bottom:22px;
+}
+
+.item:last-child{
+  margin-bottom:0;
+}
+
+.icon{
+  width:46px;
+  height:46px;
+  border-radius:14px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  flex-shrink:0;
+
+  font-size:20px;
+}
+
+.content h4{
+  color:#0F172A;
+  margin-bottom:6px;
+}
+
+.content p{
+  color:#64748B;
+  line-height:1.5;
+  font-size:14px;
+}
+
+.positive{
+  background:#DCFCE7;
+  color:#16A34A;
+}
+
+.primary{
+  background:#DBEAFE;
+  color:#005BAC;
+}
+
+.warning{
+  background:#FEF3C7;
+  color:#D97706;
+}
+
+.success{
+  background:#ECFDF5;
+  color:#10B981;
+}
+
+.danger{
+  background:#FEE2E2;
+  color:#DC2626;
+}

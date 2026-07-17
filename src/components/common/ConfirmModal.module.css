@@ -1,0 +1,119 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(15, 23, 42, .45);
+
+  backdrop-filter: blur(6px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+
+  animation: fade .25s ease;
+}
+
+.modal {
+  width: 420px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 32px;
+
+  text-align: center;
+
+  animation: pop .25s ease;
+
+  box-shadow: 0 20px 60px rgba(0,0,0,.15);
+}
+
+.icon {
+  font-size: 42px;
+
+  margin-bottom: 18px;
+}
+
+.modal h2 {
+  margin-bottom: 12px;
+
+  color: #0F172A;
+}
+
+.modal p {
+  color: #64748B;
+
+  line-height: 1.6;
+
+  margin-bottom: 28px;
+}
+
+.actions {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 16px;
+}
+
+.cancelBtn,
+.confirmBtn {
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 12px 24px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: .25s;
+}
+
+.cancelBtn {
+  background: #F1F5F9;
+
+  color: #334155;
+}
+
+.cancelBtn:hover {
+  background: #E2E8F0;
+}
+
+.confirmBtn {
+  background: #DC2626;
+
+  color: white;
+}
+
+.confirmBtn:hover {
+  background: #B91C1C;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

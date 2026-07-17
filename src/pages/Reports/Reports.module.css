@@ -1,0 +1,65 @@
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.pageHeader h1 {
+  font-size: 38px;
+  font-weight: 700;
+
+  color: #0F172A;
+}
+
+.pageHeader p {
+  margin-top: 8px;
+
+  color: #64748B;
+
+  font-size: 17px;
+}
+
+.exportBtn {
+  height: 48px;
+
+  padding: 0 22px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #005BAC;
+
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: .25s;
+}
+
+.exportBtn:hover {
+  background: #004B91;
+}
+
+.topCharts {
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+
+  gap: 24px;
+
+  margin: 28px 0;
+}
+
+.bottomSection {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 24px;
+
+  margin-top: 28px;
+}

@@ -1,0 +1,217 @@
+.card{
+    background:white;
+    margin-top:30px;
+    margin: 3px;
+    border-radius:14px;
+    padding:24px;
+    box-shadow:0 12px 30px rgba(0,0,0,.05);
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.header h3{
+    color:#1F2937;
+}
+
+.header button{
+    border:none;
+    background:#EEF5FF;
+    color:#005BAC;
+    padding:10px 18px;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+    
+}
+
+.table tbody tr{
+    transition:.25s;
+}
+
+.table tbody tr:hover{
+    background:#F8FBFF;
+}
+
+.table th{
+    text-align:left;
+    color:#64748B;
+    font-weight:600;
+    padding:15px;
+    border-bottom:1px solid #E2E8F0;
+}
+
+.table td{
+    padding:18px 15px;
+    border-bottom:1px solid #F1F5F9;
+}
+
+.employeeInfo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.avatar{
+    width:46px;
+    height:46px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius:50%;
+    background:#005BAC;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:600;
+    font-size:14px;
+}
+
+.employeeInfo h4{
+    font-size:15px;
+    margin:0;
+    color:#1E293B;
+}
+
+.employeeInfo span{
+    font-size:13px;
+    color:#64748B;
+}
+
+.employeeId{
+    font-family: monospace;
+    font-weight:600;
+    color:#64748B;
+}
+
+.department{
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.manufacturing{
+    background:#DBEAFE;
+    color:#1D4ED8;
+}
+
+.engineering{
+    background:#E0F2FE;
+    color:#0369A1;
+}
+
+.hr{
+    background:#DCFCE7;
+    color:#15803D;
+}
+
+.finance{
+    background:#FEF3C7;
+    color:#D97706;
+}
+
+.sales{
+    background:#F3E8FF;
+    color:#7C3AED;
+}
+
+.it{
+    background:#E0E7FF;
+    color:#4338CA;
+}
+
+.marketing{
+    background:#FCE7F3;
+    color:#BE185D;
+}
+
+.support{
+    background:#F3F4F6;
+    color:#475569;
+}
+
+.business{
+    background:#EDE9FE;
+    color:#6D28D9;
+}
+
+.data{
+    background:#CFFAFE;
+    color:#0891B2;
+}
+
+.badge{
+    padding:6px 14px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.present{
+    background:#DCFCE7;
+    color:#15803D;
+}
+
+.onleave{
+    background:#FEF3C7;
+    color:#B45309;
+}
+
+.pending{
+    background:#FEE2E2;
+    color:#B91C1C;
+}
+
+.actionBtn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:34px;
+    height:34px;
+
+    border:none;
+    border-radius:8px;
+    background:transparent;
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.actionBtn:hover{
+    background:#EEF5FF;
+}
+
+.late {
+  background: #FFEDD5;
+  color: #EA580C;
+}
+
+.absent {
+  background: #FEE2E2;
+  color: #DC2626;
+}
+
+.onleave {
+  background: #EDE9FE;
+  color: #7C3AED;
+}
+
+.deleteItem{
+    color:#DC2626;
+}
+
+.deleteItem:hover{
+    background:#FEE2E2;
+}

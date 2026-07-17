@@ -1,0 +1,38 @@
+.pageHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.pageHeader h1{
+    font-size:38px;
+    color:#0F172A;
+    margin-bottom:6px;
+}
+
+.pageHeader p{
+    color:#64748B;
+    font-size:16px;
+}
+
+.markBtn{
+    background:#005BAC;
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:14px 22px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.markBtn:hover{
+    background:#00458A;
+}
+
+.totalEmployees{
+    color:#64748B;
+    margin-bottom:18px;
+}
